@@ -25,4 +25,4 @@ jobs:
           context: images/base
           pull: true
           push: true
-          tags: base-image:latest
+          tags: ghcr.io/jeeb/mpv-sysroots/base:latest
