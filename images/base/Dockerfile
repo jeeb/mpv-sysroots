@@ -35,7 +35,7 @@ RUN \
 		pkgconf \
 		pkgconf-pkg-config && \
 	dnf clean all && \
-	find /usr/x86_64-w64-mingw32/sys-root/mingw/ -iname '*.dll.a' -delete && \
+	find /usr/x86_64-w64-mingw32/sys-root/mingw/ -iname '*.dll.a' -delete -print && \
     git config --global user.email "builder@localhost" && \
     git config --global user.name "Builder" && \
     git config --global advice.detachedHead false
