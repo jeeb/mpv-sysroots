@@ -10,8 +10,6 @@ on:
 jobs:
   mingw:
     runs-on: ubuntu-22.04
-    container:
-      image: fedora:37
     strategy:
       matrix:
         target: [x86_64-w64-mingw32]
